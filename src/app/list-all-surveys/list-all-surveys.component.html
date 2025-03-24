@@ -1,0 +1,97 @@
+<h1>All Survey Records</h1>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  <!-- ID Column -->
+  <ng-container matColumnDef="id">
+    <th mat-header-cell *matHeaderCellDef> ID </th>
+    <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+  </ng-container>
+
+  <!-- First Name Column -->
+  <ng-container matColumnDef="firstName">
+    <th mat-header-cell *matHeaderCellDef> First Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.firstName}} </td>
+  </ng-container>
+
+  <!-- Last Name Column -->
+  <ng-container matColumnDef="lastName">
+    <th mat-header-cell *matHeaderCellDef> Last Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.lastName}} </td>
+  </ng-container>
+
+  <!-- Street Address Column -->
+  <ng-container matColumnDef="streetAddress">
+    <th mat-header-cell *matHeaderCellDef> Street Address </th>
+    <td mat-cell *matCellDef="let element"> {{element.streetAddress}} </td>
+  </ng-container>
+
+  <!-- ZIP Column -->
+  <ng-container matColumnDef="zip">
+    <th mat-header-cell *matHeaderCellDef> ZIP </th>
+    <td mat-cell *matCellDef="let element"> {{element.zip}} </td>
+  </ng-container>
+
+  <!-- City Column -->
+  <ng-container matColumnDef="city">
+    <th mat-header-cell *matHeaderCellDef> City </th>
+    <td mat-cell *matCellDef="let element"> {{element.city}} </td>
+  </ng-container>
+
+  <!-- State Column -->
+  <ng-container matColumnDef="state">
+    <th mat-header-cell *matHeaderCellDef> State </th>
+    <td mat-cell *matCellDef="let element"> {{element.state}} </td>
+  </ng-container>
+
+  <!-- Telephone Column -->
+  <ng-container matColumnDef="telephone">
+    <th mat-header-cell *matHeaderCellDef> Telephone </th>
+    <td mat-cell *matCellDef="let element"> {{element.telephone}} </td>
+  </ng-container>
+
+  <!-- Email Column -->
+  <ng-container matColumnDef="email">
+    <th mat-header-cell *matHeaderCellDef> Email </th>
+    <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+  </ng-container>
+
+  <!-- Date Column -->
+  <ng-container matColumnDef="date">
+    <th mat-header-cell *matHeaderCellDef> Date </th>
+    <td mat-cell *matCellDef="let element"> {{element.date}} </td>
+  </ng-container>
+
+  <!-- Campus Likes Column -->
+  <ng-container matColumnDef="campuslikes">
+    <th mat-header-cell *matHeaderCellDef> Campus Likes </th>
+    <td mat-cell *matCellDef="let element"> {{ element.campusLikesAsList.join(', ') }} </td>
+</ng-container>
+
+  <!-- Interest Source Column -->
+  <ng-container matColumnDef="interestSource">
+    <th mat-header-cell *matHeaderCellDef> Interest Source </th>
+    <td mat-cell *matCellDef="let element"> {{element.interestSource}} </td>
+  </ng-container>
+
+  <!-- Likelihood Column -->
+  <ng-container matColumnDef="likelihood">
+    <th mat-header-cell *matHeaderCellDef> Likelihood </th>
+    <td mat-cell *matCellDef="let element"> {{element.likelihood}} </td>
+  </ng-container>
+
+  <!-- Comments Column -->
+  <ng-container matColumnDef="comments">
+    <th mat-header-cell *matHeaderCellDef> Comments </th>
+    <td mat-cell *matCellDef="let element"> {{element.comments}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</table>
+
+<div class="landing-page">
+  <div class="hero-content">
+    <button class="hero-button" (click)="onCancel()">HomePage</button>
+  </div>
+</div>

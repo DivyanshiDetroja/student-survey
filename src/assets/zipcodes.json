@@ -1,0 +1,524 @@
+{
+        "zipcodes": [
+          {
+            "zip": "22312",
+            "city": "Alexandria",
+            "state": "VA"
+          },
+          {
+            "zip": "22030",
+            "city": "Fairfax",
+            "state": "VA"
+          },
+          {
+            "zip": "22301",
+            "city": "Alexandria",
+            "state": "VA"
+          },
+          {
+            "zip": "20148",
+            "city": "Ashburn",
+            "state": "VA"
+          },
+          {
+            "zip": "10001",
+            "city": "New York",
+            "state": "NY"
+          },
+          {
+            "zip": "90001",
+            "city": "Los Angeles",
+            "state": "CA"
+          },
+          {
+            "zip": "60601",
+            "city": "Chicago",
+            "state": "IL"
+          },
+          {
+            "zip": "77001",
+            "city": "Houston",
+            "state": "TX"
+          },
+          {
+            "zip": "85001",
+            "city": "Phoenix",
+            "state": "AZ"
+          },
+          {
+            "zip": "19104",
+            "city": "Philadelphia",
+            "state": "PA"
+          },
+          {
+            "zip": "92101",
+            "city": "San Diego",
+            "state": "CA"
+          },
+          {
+            "zip": "75201",
+            "city": "Dallas",
+            "state": "TX"
+          },
+          {
+            "zip": "94102",
+            "city": "San Francisco",
+            "state": "CA"
+          },
+          {
+            "zip": "33101",
+            "city": "Miami",
+            "state": "FL"
+          },
+          {
+            "zip": "20001",
+            "city": "Washington",
+            "state": "DC"
+          },
+          {
+            "zip": "30301",
+            "city": "Atlanta",
+            "state": "GA"
+          },
+          {
+            "zip": "98101",
+            "city": "Seattle",
+            "state": "WA"
+          },
+          {
+            "zip": "55401",
+            "city": "Minneapolis",
+            "state": "MN"
+          },
+          {
+            "zip": "80202",
+            "city": "Denver",
+            "state": "CO"
+          },
+          {
+            "zip": "48201",
+            "city": "Detroit",
+            "state": "MI"
+          },
+          {
+            "zip": "46201",
+            "city": "Indianapolis",
+            "state": "IN"
+          },
+          {
+            "zip": "43215",
+            "city": "Columbus",
+            "state": "OH"
+          },
+          {
+            "zip": "64101",
+            "city": "Kansas City",
+            "state": "MO"
+          },
+          {
+            "zip": "73102",
+            "city": "Oklahoma City",
+            "state": "OK"
+          },
+          {
+            "zip": "37201",
+            "city": "Nashville",
+            "state": "TN"
+          },
+          {
+            "zip": "78701",
+            "city": "Austin",
+            "state": "TX"
+          },
+          {
+            "zip": "70112",
+            "city": "New Orleans",
+            "state": "LA"
+          },
+          {
+            "zip": "99201",
+            "city": "Spokane",
+            "state": "WA"
+          },
+          {
+            "zip": "96813",
+            "city": "Honolulu",
+            "state": "HI"
+          },
+          {
+            "zip": "04101",
+            "city": "Portland",
+            "state": "ME"
+          },
+          {
+            "zip": "97201",
+            "city": "Portland",
+            "state": "OR"
+          },
+          {
+            "zip": "06103",
+            "city": "Hartford",
+            "state": "CT"
+          },
+          {
+            "zip": "02903",
+            "city": "Providence",
+            "state": "RI"
+          },
+          {
+            "zip": "37402",
+            "city": "Chattanooga",
+            "state": "TN"
+          },
+          {
+            "zip": "15222",
+            "city": "Pittsburgh",
+            "state": "PA"
+          },
+          {
+            "zip": "68102",
+            "city": "Omaha",
+            "state": "NE"
+          },
+          {
+            "zip": "53202",
+            "city": "Milwaukee",
+            "state": "WI"
+          },
+          {
+            "zip": "35203",
+            "city": "Birmingham",
+            "state": "AL"
+          },
+          {
+            "zip": "32801",
+            "city": "Orlando",
+            "state": "FL"
+          },
+          {
+            "zip": "27601",
+            "city": "Raleigh",
+            "state": "NC"
+          },
+          {
+            "zip": "84101",
+            "city": "Salt Lake City",
+            "state": "UT"
+          },
+          {
+            "zip": "14202",
+            "city": "Buffalo",
+            "state": "NY"
+          },
+          {
+            "zip": "49503",
+            "city": "Grand Rapids",
+            "state": "MI"
+          },
+          {
+            "zip": "44114",
+            "city": "Cleveland",
+            "state": "OH"
+          },
+          {
+            "zip": "72120",
+            "city": "Sherwood",
+            "state": "AR"
+          },
+          {
+            "zip": "94203",
+            "city": "Sacramento",
+            "state": "CA"
+          },
+          {
+            "zip": "72201",
+            "city": "Little Rock",
+            "state": "AR"
+          },
+          {
+            "zip": "17101",
+            "city": "Harrisburg",
+            "state": "PA"
+          },
+          {
+            "zip": "23219",
+            "city": "Richmond",
+            "state": "VA"
+          },
+          {
+            "zip": "84321",
+            "city": "Logan",
+            "state": "UT"
+          },
+          {
+            "zip": "66045",
+            "city": "Lawrence",
+            "state": "KS"
+          },
+          {
+            "zip": "53703",
+            "city": "Madison",
+            "state": "WI"
+          },
+          {
+            "zip": "70802",
+            "city": "Baton Rouge",
+            "state": "LA"
+          },
+          {
+            "zip": "27401",
+            "city": "Greensboro",
+            "state": "NC"
+          },
+          {
+            "zip": "33139",
+            "city": "Miami Beach",
+            "state": "FL"
+          },
+          {
+            "zip": "61820",
+            "city": "Champaign",
+            "state": "IL"
+          },
+          {
+            "zip": "26505",
+            "city": "Morgantown",
+            "state": "WV"
+          },
+          {
+            "zip": "99501",
+            "city": "Anchorage",
+            "state": "AK"
+          },
+          {
+            "zip": "83702",
+            "city": "Boise",
+            "state": "ID"
+          },
+          {
+            "zip": "27514",
+            "city": "Chapel Hill",
+            "state": "NC"
+          },
+          {
+            "zip": "22801",
+            "city": "Harrisonburg",
+            "state": "VA"
+          },
+          {
+            "zip": "02108",
+            "city": "Boston",
+            "state": "MA"
+          },
+          {
+            "zip": "29401",
+            "city": "Charleston",
+            "state": "SC"
+          },
+          {
+            "zip": "35801",
+            "city": "Huntsville",
+            "state": "AL"
+          },
+          {
+            "zip": "94022",
+            "city": "Los Altos",
+            "state": "CA"
+          },
+          {
+            "zip": "21740",
+            "city": "Hagerstown",
+            "state": "MD"
+          },
+          {
+            "zip": "85281",
+            "city": "Tempe",
+            "state": "AZ"
+          },
+          {
+            "zip": "66213",
+            "city": "Overland Park",
+            "state": "KS"
+          },
+          {
+            "zip": "72712",
+            "city": "Bentonville",
+            "state": "AR"
+          },
+          {
+            "zip": "20910",
+            "city": "Silver Spring",
+            "state": "MD"
+          },
+          {
+            "zip": "20740",
+            "city": "College Park",
+            "state": "MD"
+          },
+          {
+            "zip": "10514",
+            "city": "Chappaqua",
+            "state": "NY"
+          },
+          {
+            "zip": "40508",
+            "city": "Lexington",
+            "state": "KY"
+          },
+          {
+            "zip": "32306",
+            "city": "Tallahassee",
+            "state": "FL"
+          },
+          {
+            "zip": "28801",
+            "city": "Asheville",
+            "state": "NC"
+          },
+          {
+            "zip": "02138",
+            "city": "Cambridge",
+            "state": "MA"
+          },
+          {
+            "zip": "99206",
+            "city": "Spokane Valley",
+            "state": "WA"
+          },
+          {
+            "zip": "58501",
+            "city": "Bismarck",
+            "state": "ND"
+          },
+          {
+            "zip": "58102",
+            "city": "Fargo",
+            "state": "ND"
+          },
+          {
+            "zip": "68588",
+            "city": "Lincoln",
+            "state": "NE"
+          },
+          {
+            "zip": "97331",
+            "city": "Corvallis",
+            "state": "OR"
+          },
+          {
+            "zip": "97403",
+            "city": "Eugene",
+            "state": "OR"
+          },
+          {
+            "zip": "47405",
+            "city": "Bloomington",
+            "state": "IN"
+          },
+          {
+            "zip": "55105",
+            "city": "Saint Paul",
+            "state": "MN"
+          },
+          {
+            "zip": "61801",
+            "city": "Urbana",
+            "state": "IL"
+          },
+          {
+            "zip": "94305",
+            "city": "Stanford",
+            "state": "CA"
+          },
+          {
+            "zip": "94304",
+            "city": "Palo Alto",
+            "state": "CA"
+          },
+          {
+            "zip": "66220",
+            "city": "Lenexa",
+            "state": "KS"
+          },
+          {
+            "zip": "48084",
+            "city": "Troy",
+            "state": "MI"
+          },
+          {
+            "zip": "55343",
+            "city": "Hopkins",
+            "state": "MN"
+          },
+          {
+            "zip": "55344",
+            "city": "Eden Prairie",
+            "state": "MN"
+          },
+          {
+            "zip": "45402",
+            "city": "Dayton",
+            "state": "OH"
+          },
+          {
+            "zip": "37996",
+            "city": "Knoxville",
+            "state": "TN"
+          },
+          {
+            "zip": "48933",
+            "city": "Lansing",
+            "state": "MI"
+          },
+          {
+            "zip": "80309",
+            "city": "Boulder",
+            "state": "CO"
+          },
+          {
+            "zip": "13210",
+            "city": "Syracuse",
+            "state": "NY"
+          },
+          {
+            "zip": "80045",
+            "city": "Aurora",
+            "state": "CO"
+          },
+          {
+            "zip": "80027",
+            "city": "Louisville",
+            "state": "CO"
+          },
+          {
+            "zip": "29208",
+            "city": "Columbia",
+            "state": "SC"
+          },
+          {
+            "zip": "80523",
+            "city": "Fort Collins",
+            "state": "CO"
+          },
+          {
+            "zip": "32611",
+            "city": "Gainesville",
+            "state": "FL"
+          },
+          {
+            "zip": "70504",
+            "city": "Lafayette",
+            "state": "LA"
+          },
+          {
+            "zip": "27708",
+            "city": "Durham",
+            "state": "NC"
+          },
+          {
+            "zip": "39157",
+            "city": "Ridgeland",
+            "state": "MS"
+          }
+        ]
+      }

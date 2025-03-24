@@ -1,0 +1,83 @@
+<div class="survey-form-container">
+        <h1>Student Satisfaction Survey 2023</h1>
+      
+        <form [formGroup]="surveyForm" (ngSubmit)="onSubmit()">
+
+          <label>
+            First Name:
+            <input type="text" formControlName="firstName" placeholder="First Name"  />
+          </label>
+      
+          <label>
+            Last Name:
+            <input type="text" formControlName="lastName" placeholder="Last Name"  />
+          </label>
+    
+          <label>
+            Zip Code:
+            <input type="text" formControlName="zip" placeholder="Zip Code"  />
+          </label>
+      
+          <label>
+            Street Address:
+            <input type="text" formControlName="streetAddress" placeholder="Street Address"  />
+          </label>
+    
+          <label>
+            City:
+            <input type="text" formControlName="city" placeholder="City"  />
+          </label>
+      
+          <label>
+            State:
+            <input type="text" formControlName="state" placeholder="State" />
+          </label>
+      
+          <label>
+            Telephone Number:
+            <input type="tel" formControlName="telephone" placeholder="Telephone Number"  />
+          </label>
+      
+          <label>
+            E-mail:
+            <input type="email" formControlName="email" placeholder="E-mail"  />
+          </label>
+      
+          <label>
+            Date of Survey:
+            <input type="date" formControlName="date"  />
+          </label>
+      
+          <h3>What did you like most about the campus?</h3>
+          <div class="campus-likes-checkbox-group">
+            <label *ngFor="let like of campusLikesOptions">
+              <input type="checkbox" [value]="like" (change)="onCampusLikeChange($event)" />
+              {{ like }}
+            </label>
+          </div>
+      
+          <h3>How did you become interested in the university?</h3>
+          <div class="interest-source-radio-group">
+            <label *ngFor="let source of interestSources">
+              <input type="radio" formControlName="interestSource" [value]="source" />
+              {{ source }}
+            </label>
+          </div>
+      
+          <h3>Likelihood of recommending this school to others</h3>
+          <select formControlName="likelihood" >
+            <option value="" disabled selected>Select an option</option>
+            <option *ngFor="let option of likelihoodOptions" [value]="option">{{ option }}</option>
+          </select>
+      
+
+          <h3>Additional Comments</h3>
+          <textarea formControlName="comments" placeholder="Your comments"></textarea>
+      
+
+          <div class="form-action-buttons">
+            <button type="submit">Submit</button>
+            <button type="button" (click)="onCancel()">Cancel</button>
+          </div>
+        </form>
+      </div>
